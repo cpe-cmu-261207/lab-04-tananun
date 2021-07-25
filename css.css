@@ -1,0 +1,26 @@
+/* When clicked on, add a background color and strike out text */
+ul li.checked {
+    /* background: #888; */
+    color: rgb(133, 130, 130);
+    text-decoration: line-through;
+  }
+  ul {
+    list-style: none;
+    padding: 30px 40px;
+    text-align: center;
+  }
+
+  
+  /* Style the list items */
+  ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    font-size: 18px;
+    transition: 0.2s;
+  }
+  .header {
+    padding: 30px 40px;
+    text-align: center;
+  }
+  
